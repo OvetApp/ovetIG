@@ -1,0 +1,19 @@
+ovetIG
+=========================================
+
+Generic: line 0, col 0, Error - The reference ovet.ca/StructureDefinition/MyPatient could not be resolved (INVARIANT)
+Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+/Users/y/Dev/ovet/sushi/ov/ovetIG/fsh-generated/resources/ImplementationGuide-fhir.ovet.json: line 1, col 488, Error - Canonical URLs must be absolute URLs if they are not fragment references (ovet.ca/ImplementationGuide/fhir.ovet) (INVALID)
+/Users/y/Dev/ovet/sushi/ov/ovetIG/fsh-generated/resources/ImplementationGuide-fhir.ovet.json: line 1, col 10788, Error - Canonical URLs must be absolute URLs if they are not fragment references (ovet.ca/StructureDefinition/MyPatient) (INVALID)
+/Users/y/Dev/ovet/sushi/ov/ovetIG/fsh-generated/resources/ImplementationGuide-fhir.ovet.json: line 1, col 11929, Warning - Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (defined in http://hl7.org/fhir/StructureDefinition/ImplementationGuide) (INVARIANT)
+/Users/y/Dev/ovet/sushi/ov/ovetIG/fsh-generated/resources/Patient-PatientExample.json: line 6, col 46, Error - Canonical URLs must be absolute URLs if they are not fragment references (ovet.ca/StructureDefinition/MyPatient) (INVALID)
+/Users/y/Dev/ovet/sushi/ov/ovetIG/fsh-generated/resources/Patient-PatientExample.json: line 1, col 2, Warning - Profile reference 'ovet.ca/StructureDefinition/MyPatient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles (STRUCTURE)
+/Users/y/Dev/ovet/sushi/ov/ovetIG/fsh-generated/resources/Patient-PatientExample.json: line 0, col 0, Error - Unable to find profile ovet.ca/ovet.ca/StructureDefinition/MyPatient nominated as the profile for which resource /Patient/PatientExample is an example (NOTFOUND)
+/Users/y/Dev/ovet/sushi/ov/ovetIG/fsh-generated/resources/StructureDefinition-MyPatient.json: line 1, col 7801, Error - Canonical URLs must be absolute URLs if they are not fragment references (ovet.ca/StructureDefinition/MyPatient) (INVALID)
+/Users/y/Dev/ovet/sushi/ov/ovetIG/fsh-generated/resources/StructureDefinition-MyPatient.json: line 1, col 56274, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
+
+err = 6, warn = 6, info = 1
+IG Publisher Version: 1.7.5

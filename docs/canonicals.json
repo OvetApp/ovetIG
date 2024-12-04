@@ -1,0 +1,16 @@
+[
+  {
+    "id" : "fhir.ovet",
+    "type" : "ImplementationGuide",
+    "url" : "ovet.ca/ImplementationGuide/fhir.ovet",
+    "version" : "0.1.0",
+    "name" : "ovetIG"
+  },
+  {
+    "id" : "MyPatient",
+    "type" : "StructureDefinition",
+    "url" : "ovet.ca/StructureDefinition/MyPatient",
+    "version" : "0.1.0",
+    "name" : "MyPatient"
+  }
+]
