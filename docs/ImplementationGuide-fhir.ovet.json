@@ -3,19 +3,19 @@
   "id" : "fhir.ovet",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide fhir.ovet</b></p><a name=\"fhir.ovet\"> </a><a name=\"hcfhir.ovet\"> </a><a name=\"fhir.ovet-en-US\"> </a><h2>ovetIG</h2><p>The official URL for this implementation guide is: </p><pre>ovet.ca/ImplementationGuide/fhir.ovet</pre></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide fhir.ovet</b></p><a name=\"fhir.ovet\"> </a><a name=\"hcfhir.ovet\"> </a><a name=\"fhir.ovet-en-US\"> </a><h2>ovetIG</h2><p>The official URL for this implementation guide is: </p><pre>https://ovetapp.github.io/ovetIG/ImplementationGuide/fhir.ovet</pre></div>"
   },
-  "url" : "ovet.ca/ImplementationGuide/fhir.ovet",
+  "url" : "https://ovetapp.github.io/ovetIG/ImplementationGuide/fhir.ovet",
   "version" : "0.1.0",
   "name" : "ovetIG",
   "status" : "draft",
-  "date" : "2024-12-04T06:26:24-05:00",
-  "publisher" : "Example Publisher",
+  "date" : "2024-12-05T09:15:12-05:00",
+  "publisher" : "OvetGang",
   "contact" : [{
-    "name" : "Example Publisher",
+    "name" : "OvetGang",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://example.org/example-publisher"
+      "value" : "https://github.com/ovetApp"
     }]
   }],
   "packageId" : "fhir.ovet",
@@ -148,7 +148,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ovet.ca/history.html"
+        "valueString" : "https://ovetapp.github.io/ovetIG/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -427,7 +427,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ovet.ca/history.html"
+        "valueString" : "https://ovetapp.github.io/ovetIG/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -602,23 +602,11 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/MyPatient"
+        "reference" : "StructureDefinition/animal-patient"
       },
-      "name" : "MyPatient",
+      "name" : "OvetPatientProfile",
       "description" : "An example profile of the Patient resource.",
       "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/PatientExample"
-      },
-      "name" : "PatientExample",
-      "description" : "An example of a patient with a license to krill.",
-      "exampleCanonical" : "ovet.ca/StructureDefinition/MyPatient"
     }],
     "page" : {
       "extension" : [{

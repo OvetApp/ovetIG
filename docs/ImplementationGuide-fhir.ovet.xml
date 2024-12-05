@@ -3,19 +3,19 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="fhir.ovet"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide fhir.ovet</b></p><a name="fhir.ovet"> </a><a name="hcfhir.ovet"> </a><a name="fhir.ovet-en-US"> </a><h2>ovetIG</h2><p>The official URL for this implementation guide is: </p><pre>ovet.ca/ImplementationGuide/fhir.ovet</pre></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide fhir.ovet</b></p><a name="fhir.ovet"> </a><a name="hcfhir.ovet"> </a><a name="fhir.ovet-en-US"> </a><h2>ovetIG</h2><p>The official URL for this implementation guide is: </p><pre>https://ovetapp.github.io/ovetIG/ImplementationGuide/fhir.ovet</pre></div>
   </text>
-  <url value="ovet.ca/ImplementationGuide/fhir.ovet"/>
+  <url value="https://ovetapp.github.io/ovetIG/ImplementationGuide/fhir.ovet"/>
   <version value="0.1.0"/>
   <name value="ovetIG"/>
   <status value="draft"/>
-  <date value="2024-12-04T06:26:24-05:00"/>
-  <publisher value="Example Publisher"/>
+  <date value="2024-12-05T09:15:12-05:00"/>
+  <publisher value="OvetGang"/>
   <contact>
-    <name value="Example Publisher"/>
+    <name value="OvetGang"/>
     <telecom>
       <system value="url"/>
-      <value value="http://example.org/example-publisher"/>
+      <value value="https://github.com/ovetApp"/>
     </telecom>
   </contact>
   <packageId value="fhir.ovet"/>
@@ -115,7 +115,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="ovet.ca/history.html"/>
+        <valueString value="https://ovetapp.github.io/ovetIG/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -318,7 +318,7 @@
         <valueCode value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="ovet.ca/history.html"/>
+        <valueString value="https://ovetapp.github.io/ovetIG/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -446,22 +446,11 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/MyPatient"/>
+        <reference value="StructureDefinition/animal-patient"/>
       </reference>
-      <name value="MyPatient"/>
+      <name value="OvetPatientProfile"/>
       <description value="An example profile of the Patient resource."/>
       <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
-      </extension>
-      <reference>
-        <reference value="Patient/PatientExample"/>
-      </reference>
-      <name value="PatientExample"/>
-      <description value="An example of a patient with a license to krill."/>
-      <exampleCanonical value="ovet.ca/StructureDefinition/MyPatient"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

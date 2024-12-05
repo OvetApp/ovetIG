@@ -2,15 +2,15 @@
   {
     "id" : "fhir.ovet",
     "type" : "ImplementationGuide",
-    "url" : "ovet.ca/ImplementationGuide/fhir.ovet",
+    "url" : "https://ovetapp.github.io/ovetIG/ImplementationGuide/fhir.ovet",
     "version" : "0.1.0",
     "name" : "ovetIG"
   },
   {
-    "id" : "MyPatient",
+    "id" : "animal-patient",
     "type" : "StructureDefinition",
-    "url" : "ovet.ca/StructureDefinition/MyPatient",
+    "url" : "https://ovetapp.github.io/ovetIG/StructureDefinition/animal-patient",
     "version" : "0.1.0",
-    "name" : "MyPatient"
+    "name" : "OvetPatientProfile"
   }
 ]

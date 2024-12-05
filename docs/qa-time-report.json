@@ -1,15 +1,15 @@
 {
-  "date" : "Wed, 04 Dec, 2024 06:26:24 -0500",
+  "date" : "Thu, 05 Dec, 2024 09:15:12 -0500",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
       "name" : "/fsh-generated/resources/ImplementationGuide-fhir.ovet.json",
-      "size" : 1468,
+      "size" : 1203,
       "processes" : [
         {
           "activity" : "load",
           "start" : 12,
-          "length" : 8
+          "length" : 12
         },
         {
           "activity" : "checkR4R4B",
@@ -19,38 +19,38 @@
         {
           "activity" : "generateNarratives",
           "start" : 12,
-          "length" : 210
+          "length" : 130
         },
         {
           "activity" : "validate",
           "start" : 13,
-          "length" : 269
+          "length" : 271
         },
         {
           "activity" : "generate1",
           "start" : 13,
-          "length" : 78
+          "length" : 45
         },
         {
           "activity" : "generate2",
           "start" : 14,
-          "length" : 44
+          "length" : 34
         },
         {
-          "activity" : "generateValidationPack",
-          "start" : 20,
-          "length" : 2
+          "activity" : "scanExamplesForR5",
+          "start" : 22,
+          "length" : 1
         }
       ]
     },
     {
-      "name" : "fsh-generated/resources/Patient-PatientExample.json",
-      "size" : 238,
+      "name" : "fsh-generated/resources/StructureDefinition-animal-patient.json",
+      "size" : 1096,
       "processes" : [
         {
           "activity" : "loadResources",
           "start" : 12,
-          "length" : 6
+          "length" : 9
         },
         {
           "activity" : "load-configure",
@@ -58,60 +58,29 @@
           "length" : 1
         },
         {
-          "activity" : "loadInfo",
-          "start" : 12,
-          "length" : 1
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 12,
-          "length" : 1
-        },
-        {
-          "activity" : "validate",
-          "start" : 13,
-          "length" : 1
-        },
-        {
-          "activity" : "generate1",
-          "start" : 13,
-          "length" : 6
-        },
-        {
-          "activity" : "generate2",
-          "start" : 14,
-          "length" : 8
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/StructureDefinition-MyPatient.json",
-      "size" : 586,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 12,
-          "length" : 5
-        },
-        {
           "activity" : "load",
           "start" : 12,
-          "length" : 8
+          "length" : 10
         },
         {
           "activity" : "generateSnapshots",
           "start" : 12,
-          "length" : 114
+          "length" : 79
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 12,
+          "length" : 1
         },
         {
           "activity" : "generateNarratives",
-          "start" : 12,
-          "length" : 33
+          "start" : 13,
+          "length" : 26
         },
         {
           "activity" : "validate",
-          "start" : 12,
-          "length" : 445
+          "start" : 13,
+          "length" : 528
         },
         {
           "activity" : "scanForUsageStats",
@@ -121,27 +90,27 @@
         {
           "activity" : "generate1",
           "start" : 13,
-          "length" : 192
+          "length" : 219
         },
         {
           "activity" : "generate2",
-          "start" : 15,
-          "length" : 1733
-        },
-        {
-          "activity" : "makeDependencies",
-          "start" : 18,
-          "length" : 1
+          "start" : 14,
+          "length" : 1818
         },
         {
           "activity" : "generateValidationPack",
           "start" : 20,
-          "length" : 5
+          "length" : 4
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 22,
+          "length" : 1
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 21,
-          "length" : 1
+          "start" : 22,
+          "length" : 3
         }
       ]
     }

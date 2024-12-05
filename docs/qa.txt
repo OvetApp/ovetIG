@@ -1,28 +1,20 @@
 ovetIG : Validation Results
 =========================================
 
-err = 6, warn = 6, info = 1
+err = 0, warn = 6, info = 1
 IG Publisher Version: 1.7.5
-Generated Wed Dec 04 06:26:33 EST 2024. FHIR version 4.0.1 for fhir.ovet#0.1.0 (canonical = ovet.ca)
- Build Errors : 1 / 4 / 0
- /Users/y/Dev/ovet/sushi/ov/ovetIG/fsh-generated/resources/ImplementationGuide-fhir.ovet : 2 / 1 / 1
- /Users/y/Dev/ovet/sushi/ov/ovetIG/fsh-generated/resources/Patient-PatientExample : 2 / 1 / 1
- /Users/y/Dev/ovet/sushi/ov/ovetIG/fsh-generated/resources/StructureDefinition-MyPatient : 1 / 0 / 2
+Generated Thu Dec 05 09:15:22 EST 2024. FHIR version 4.0.1 for fhir.ovet#0.1.0 (canonical = https://ovetapp.github.io/ovetIG)
+ Build Errors : 0 / 4 / 0
+ /Users/y/Dev/ovet/sushi/ov/ovetIG/fsh-generated/resources/ImplementationGuide-fhir.ovet : 0 / 1 / 1
+ /Users/y/Dev/ovet/sushi/ov/ovetIG/fsh-generated/resources/StructureDefinition-animal-patient : 0 / 1 / 2
 </table>
 == n/a ==
-ERROR: ?pkp-1?: The reference ovet.ca/StructureDefinition/MyPatient could not be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/ImplementationGuide-fhir.ovet.json ==
-ERROR: ImplementationGuide/fhir.ovet: ImplementationGuide.url: Canonical URLs must be absolute URLs if they are not fragment references (ovet.ca/ImplementationGuide/fhir.ovet)
-ERROR: ImplementationGuide/fhir.ovet: ImplementationGuide.definition.resource[1].example.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (ovet.ca/StructureDefinition/MyPatient)
 WARNING: ImplementationGuide/fhir.ovet: ImplementationGuide: Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (defined in http://hl7.org/fhir/StructureDefinition/ImplementationGuide)
-== fsh-generated/resources/Patient-PatientExample.json ==
-ERROR: Patient/PatientExample: Patient.meta.profile[0]: Canonical URLs must be absolute URLs if they are not fragment references (ovet.ca/StructureDefinition/MyPatient)
-WARNING: Patient/PatientExample: Patient.meta.profile[0]: Profile reference 'ovet.ca/StructureDefinition/MyPatient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
-ERROR: Patient/PatientExample: Unable to find profile ovet.ca/ovet.ca/StructureDefinition/MyPatient nominated as the profile for which resource /Patient/PatientExample is an example
-== fsh-generated/resources/StructureDefinition-MyPatient.json ==
-ERROR: StructureDefinition/MyPatient: StructureDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (ovet.ca/StructureDefinition/MyPatient)
-INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+== fsh-generated/resources/StructureDefinition-animal-patient.json ==
+INFORMATION: StructureDefinition/animal-patient: StructureDefinition.snapshot.element[31].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+WARNING: StructureDefinition.where(url = 'https://ovetapp.github.io/ovetIG/StructureDefinition/animal-patient'): The Implementation Guide contains no examples for this profile

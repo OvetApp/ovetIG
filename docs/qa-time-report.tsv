@@ -1,4 +1,3 @@
 Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-fhir.ovet.json	1468	-	0	0	0	0	0	0	3	210	0	0	0	0	0	0	0	0	0	0	78	44	0	0	0	2	0	0
-fsh-generated/resources/Patient-PatientExample.json	238	6	1	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	6	8	0	0	0	0	0	0
-fsh-generated/resources/StructureDefinition-MyPatient.json	586	5	0	0	0	0	0	114	0	33	0	0	0	0	0	0	0	1	0	0	192	1733	0	1	0	5	0	1
+/fsh-generated/resources/ImplementationGuide-fhir.ovet.json	1203	-	0	0	0	0	0	0	3	130	0	0	0	0	0	0	0	0	0	0	45	34	0	0	0	0	0	1
+fsh-generated/resources/StructureDefinition-animal-patient.json	1096	9	1	0	0	0	0	79	1	26	0	0	0	0	0	0	0	1	0	0	219	1818	0	0	0	4	1	3
